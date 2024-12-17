@@ -21,7 +21,7 @@ export TEMP_DIR="${TEMP_DIR}"
 
 
 
-STATE_DIR=$(jq --raw-output '.TEMP_DIR' $STATE_DIR)
+STATE_DIR=$(jq --raw-output '.TEMP_DIR' $CONFIG_PATH)
 echo "STATE_DIR: ${STATE_DIR}"
 export STATE_DIR="${STATE_DIR}"
 
