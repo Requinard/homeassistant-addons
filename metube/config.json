@@ -24,7 +24,7 @@
   },
   "schema": {
     "DELETE_FILE_ON_TRASHCAN": "bool",
-    "DOWNLOAD_DIR": "str".
+    "DOWNLOAD_DIR": "str",
     "TEMP_DIR": "str",
     "STATE_DIR": "str"
   },
