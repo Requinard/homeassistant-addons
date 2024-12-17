@@ -31,7 +31,7 @@
   "slug": "metube",
   "startup": "services",
   "upstream": "2024-12-14",
-  "url": "https://github.com/jdeath/homeassistant-addons",
+  "url": "https://github.com/Requinard/homeassistant-addons",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8081]",
   "ingress": true,
   "ingress_port": 8081
