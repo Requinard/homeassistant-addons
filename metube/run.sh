@@ -12,4 +12,18 @@ DOWNLOAD_DIR=$(jq --raw-output '.DOWNLOAD_DIR' $CONFIG_PATH)
 echo "DOWNLOAD_DIR: ${DOWNLOAD_DIR}"
 export DOWNLOAD_DIR="${DOWNLOAD_DIR}"
 
+
+
+TEMP_DIR=$(jq --raw-output '.TEMP_DIR' $CONFIG_PATH)
+echo "TEMP_DIR: ${TEMP_DIR}"
+export TEMP_DIR="${TEMP_DIR}"
+
+
+
+
+STATE_DIR=$(jq --raw-output '.TEMP_DIR' $STATE_DIR)
+echo "TEMP_DIR: ${STATE_DIR}"
+export STATE_DIR="${STATE_DIR}"
+
+
 ./docker-entrypoint.sh
