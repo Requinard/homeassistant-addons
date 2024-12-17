@@ -25,5 +25,6 @@ STATE_DIR=$(jq --raw-output '.TEMP_DIR' $CONFIG_PATH)
 echo "STATE_DIR: ${STATE_DIR}"
 export STATE_DIR="${STATE_DIR}"
 
-
+export UID=1
+export GID=1
 ./docker-entrypoint.sh
