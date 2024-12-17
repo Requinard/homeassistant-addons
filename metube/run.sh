@@ -12,7 +12,8 @@ DOWNLOAD_DIR=$(jq --raw-output '.DOWNLOAD_DIR' $CONFIG_PATH)
 echo "DOWNLOAD_DIR: ${DOWNLOAD_DIR}"
 export DOWNLOAD_DIR="${DOWNLOAD_DIR}"
 
-export STATE_DIR="${DOWNLOAD_DIR}/.metube"
-export TEMP_DIR="${DOWNLOAD_DIR}/.tmp"
-
+export STATE_DIR="${DOWNLOAD_DIR}.metube"
+export TEMP_DIR="${DOWNLOAD_DIR}.tmp"
+export UID=0
+export GID=0
 ./docker-entrypoint.sh
