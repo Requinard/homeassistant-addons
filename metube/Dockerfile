@@ -1,9 +1,6 @@
 ARG BUILD_FROM
 FROM alexta69/metube
 
-ENV UID=1
-ENV GID=1
-
 VOLUME [ "/share" ]
 RUN apk add -U --no-cache jq
 
