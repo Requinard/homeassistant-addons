@@ -8,7 +8,7 @@
   "map": [
     "share:rw"
   ],
-  "version": "2024-12-14.5",
+  "version": "2024-12-14.6",
   "name": "metube",
   "options": {
     "DELETE_FILE_ON_TRASHCAN": false,
