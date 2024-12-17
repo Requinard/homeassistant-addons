@@ -8,13 +8,11 @@
   "map": [
     "share:rw"
   ],
-  "version": "2024-12-14.3",
+  "version": "2024-12-14.4",
   "name": "metube",
   "options": {
     "DELETE_FILE_ON_TRASHCAN": false,
-    "DOWNLOAD_DIR": "/share/metube/",
-    "TEMP_DIR": "/share/metube/.temp",
-    "STATE_DIR": "/share/metube/.metube"
+    "DOWNLOAD_DIR": "/share/metube/"
   },
   "ports": {
     "8081/tcp": "8081"
@@ -24,9 +22,7 @@
   },
   "schema": {
     "DELETE_FILE_ON_TRASHCAN": "bool",
-    "DOWNLOAD_DIR": "str",
-    "TEMP_DIR": "str",
-    "STATE_DIR": "str"
+    "DOWNLOAD_DIR": "str"
   },
   "slug": "metube",
   "startup": "services",
